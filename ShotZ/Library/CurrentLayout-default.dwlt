@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Modelos3D
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Modelos3D
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Mafra 3 anos\Projetos\ShotZ\ShotZ
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 984b0000
-    m_LastClickedID: 19352
-    m_ExpandedIDs: 00000000984b000000ca9a3b
+    m_SelectedIDs: 923d0000
+    m_LastClickedID: 15762
+    m_ExpandedIDs: 000000002e3d00006c3d00006e3d0000923d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 000000002e3d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -388,7 +388,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
+    m_ExpandedInstanceIDs: c6230000ca560000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -483,7 +483,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 84faffff
+      m_ExpandedIDs: 1481fffff291ffff52fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -543,9 +543,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.8380618, y: 1.5792977, z: -10.028224}
+    m_Target: {x: 53.35576, y: -141.01932, z: -146.00615}
     speed: 2
-    m_Value: {x: -2.8380618, y: 1.5792977, z: -10.028224}
+    m_Value: {x: 53.35576, y: -141.01932, z: -146.00615}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -592,13 +592,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.00001855116, y: 0.9980911, z: -0.061770316, w: 0.0003004048}
+    m_Target: {x: -0.03766494, y: -0.9395722, z: 0.32216448, w: -0.11019178}
     speed: 2
-    m_Value: {x: 0.00011120651, y: 0.99808884, z: -0.061770175, w: 0.0017975394}
+    m_Value: {x: -0.037178922, y: -0.9396675, z: 0.322197, w: -0.10877433}
   m_Size:
-    m_Target: 7.847563
+    m_Target: 148.0424
     speed: 2
-    m_Value: 7.847563
+    m_Value: 148.0424
   m_Ortho:
     m_Target: 0
     speed: 2
