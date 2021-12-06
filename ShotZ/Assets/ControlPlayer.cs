@@ -15,9 +15,20 @@ public class ControlPlayer : MonoBehaviour
     void Update()
     {
 
-        float eixoX = Input.GetAxis("Horizontal"); 
-        float eixoZ = Input.GetAxis("Vertical"); 
+        float eixoX = Input.GetAxis("Horizontal");
+        float eixoZ = Input.GetAxis("Vertical");
+
         Vector3 direcao = new Vector3(eixoX, 0, eixoZ);
+
         transform.Translate(direcao * Velocidade * Time.deltaTime);
+
+        if (direcao != Vector3.zero)
+        {
+            GetComponent<Animator>().SetBool("Moving", true);
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("Moving", false);
+        }
     }
 }
