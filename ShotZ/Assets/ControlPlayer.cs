@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ControlPlayer : MonoBehaviour
 {
-    public float Velocidade = 3;
+    public float Velocidade = 0.9f;
     // Start is called before the first frame update
     void Start()
     {
