@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Bala : MonoBehaviour
 {
+    public float Velocidade = 20;
     // Start is called before the first frame update
     void Start()
     {
@@ -11,8 +12,10 @@ public class Bala : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+
+    void FixedUpdate()
     {
+        GetComponent<Rigidbody>().MovePosition(GetComponent<Rigidbody>().position + transform.forward * Velocidade * Time.deltaTime);
         
     }
 }

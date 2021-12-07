@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44760895, g: 0.4975785, b: 0.57535696, a: 1}
+  m_IndirectSpecularColor: {r: 0.42969814, g: 0.46424758, b: 0.49517894, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -295,6 +295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rua_Quadrado (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685154885843502, guid: 0ad97ea479e1e4c6e941563750dbf44e, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 4730407008843400, guid: 0ad97ea479e1e4c6e941563750dbf44e, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -498,6 +502,10 @@ PrefabInstance:
     - target: {fileID: 1162617496005406, guid: 5433f7b287ec94b759160a02a3fddf28, type: 3}
       propertyPath: m_Name
       value: Quadra
+      objectReference: {fileID: 0}
+    - target: {fileID: 1162617496005406, guid: 5433f7b287ec94b759160a02a3fddf28, type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4309470622616886, guid: 5433f7b287ec94b759160a02a3fddf28, type: 3}
       propertyPath: m_RootOrder
@@ -751,6 +759,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rua_T
       objectReference: {fileID: 0}
+    - target: {fileID: 1185348815892914, guid: 417f148e4549341348fb7d602123630e, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 4748218072112664, guid: 417f148e4549341348fb7d602123630e, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -816,6 +828,10 @@ PrefabInstance:
     - target: {fileID: 1572817250100704, guid: 951d2e6b926174346bb90f32e564a716, type: 3}
       propertyPath: m_Name
       value: Rua_Cruz_Destruido
+      objectReference: {fileID: 0}
+    - target: {fileID: 1572817250100704, guid: 951d2e6b926174346bb90f32e564a716, type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4650744448952284, guid: 951d2e6b926174346bb90f32e564a716, type: 3}
       propertyPath: m_RootOrder
@@ -2010,13 +2026,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
-  m_LocalRotation: {x: 0.88291514, y: -0.10791546, z: 0.24842563, w: 0.38353607}
+  m_LocalRotation: {x: 0.0657667, y: -0.27021956, z: 0.01850476, w: 0.9603717}
   m_LocalPosition: {x: -19.28, y: 41.28, z: 33.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 133.04, y: -31.43, z: 0}
+  m_LocalEulerAnglesHint: {x: 7.835, y: -31.43, z: 0}
 --- !u!1001 &719698971
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2188,6 +2204,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Acampamento
       objectReference: {fileID: 0}
+    - target: {fileID: 1083659700147226, guid: 826ffb351079f4d82872f95f134ea007, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 4958400291633414, guid: 826ffb351079f4d82872f95f134ea007, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -2312,6 +2332,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rua_Quadrado
       objectReference: {fileID: 0}
+    - target: {fileID: 1685154885843502, guid: 0ad97ea479e1e4c6e941563750dbf44e, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 4730407008843400, guid: 0ad97ea479e1e4c6e941563750dbf44e, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -2373,6 +2397,10 @@ PrefabInstance:
     - target: {fileID: 1511780364695740, guid: 65666f9a15a8a4e3784ca7b588e77868, type: 3}
       propertyPath: m_Name
       value: Rua_Reta_Grande_Destruido_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1511780364695740, guid: 65666f9a15a8a4e3784ca7b588e77868, type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4322265185226088, guid: 65666f9a15a8a4e3784ca7b588e77868, type: 3}
       propertyPath: m_RootOrder
@@ -2744,13 +2772,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0.013855637, y: -0.98541254, z: 0.0992807, w: -0.13752653}
-  m_LocalPosition: {x: 8.23, y: 1.36, z: 49.39}
+  m_LocalRotation: {x: -0.30739662, y: 0.11932095, z: -0.03888484, w: -0.9432697}
+  m_LocalPosition: {x: 11.29, y: 5.92, z: 41.88}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 11.506, y: -195.89, z: 0}
+  m_LocalEulerAnglesHint: {x: 36.1, y: -374.419, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3565,6 +3593,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terra_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1095017299335798, guid: 65230f962a0a9462d99fcc669858b9a8, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 4517415649865884, guid: 65230f962a0a9462d99fcc669858b9a8, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -3869,6 +3901,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rua_Quadrado
       objectReference: {fileID: 0}
+    - target: {fileID: 1685154885843502, guid: 0ad97ea479e1e4c6e941563750dbf44e, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 4730407008843400, guid: 0ad97ea479e1e4c6e941563750dbf44e, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -4018,6 +4054,10 @@ PrefabInstance:
     - target: {fileID: 1685154885843502, guid: 0ad97ea479e1e4c6e941563750dbf44e, type: 3}
       propertyPath: m_Name
       value: Rua_Quadrado (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685154885843502, guid: 0ad97ea479e1e4c6e941563750dbf44e, type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4730407008843400, guid: 0ad97ea479e1e4c6e941563750dbf44e, type: 3}
       propertyPath: m_RootOrder
@@ -4572,6 +4612,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terra_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1095017299335798, guid: 65230f962a0a9462d99fcc669858b9a8, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 4517415649865884, guid: 65230f962a0a9462d99fcc669858b9a8, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -4714,6 +4758,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GaleriaDeLojas_Destruido
       objectReference: {fileID: 0}
+    - target: {fileID: 1221143517622370, guid: eac7d4127990742bd968697c3943f981, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 4678118047085270, guid: eac7d4127990742bd968697c3943f981, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -4820,6 +4868,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Velocidade: 5
+  MascaraChao:
+    serializedVersion: 2
+    m_Bits: 8192
 --- !u!136 &1825427343
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4868,7 +4919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Bala: {fileID: 4188933955748977944, guid: 5b75c04ba15fcaa4fb8dee20b6a90052, type: 3}
-  CanoDaArma: {fileID: 0}
+  CanoDaArma: {fileID: 484074710}
 --- !u!1 &1832664401 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1083659700147226, guid: 826ffb351079f4d82872f95f134ea007, type: 3}
@@ -4898,6 +4949,10 @@ PrefabInstance:
     - target: {fileID: 1685154885843502, guid: 0ad97ea479e1e4c6e941563750dbf44e, type: 3}
       propertyPath: m_Name
       value: Rua_Quadrado (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685154885843502, guid: 0ad97ea479e1e4c6e941563750dbf44e, type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4730407008843400, guid: 0ad97ea479e1e4c6e941563750dbf44e, type: 3}
       propertyPath: m_RootOrder
@@ -5295,6 +5350,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rua_Quadrado (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685154885843502, guid: 0ad97ea479e1e4c6e941563750dbf44e, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 4730407008843400, guid: 0ad97ea479e1e4c6e941563750dbf44e, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -5356,6 +5415,10 @@ PrefabInstance:
     - target: {fileID: 1685154885843502, guid: 0ad97ea479e1e4c6e941563750dbf44e, type: 3}
       propertyPath: m_Name
       value: Rua_Quadrado (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685154885843502, guid: 0ad97ea479e1e4c6e941563750dbf44e, type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4730407008843400, guid: 0ad97ea479e1e4c6e941563750dbf44e, type: 3}
       propertyPath: m_RootOrder

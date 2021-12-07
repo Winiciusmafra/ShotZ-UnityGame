@@ -6,6 +6,7 @@ public class ControlCamera : MonoBehaviour
 {
     public GameObject Jogador;
     Vector3 distCompensar;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +16,7 @@ public class ControlCamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
         transform.position = Jogador.transform.position + distCompensar;
     }
 }
