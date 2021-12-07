@@ -5,6 +5,7 @@ using UnityEngine;
 public class ControlPlayer : MonoBehaviour
 {
     public float Velocidade = 0.9f;
+    Vector3 direcao;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,9 +19,9 @@ public class ControlPlayer : MonoBehaviour
         float eixoX = Input.GetAxis("Horizontal");
         float eixoZ = Input.GetAxis("Vertical");
 
-        Vector3 direcao = new Vector3(eixoX, 0, eixoZ);
+        direcao = new Vector3(eixoX, 0, eixoZ);
 
-        transform.Translate(direcao * Velocidade * Time.deltaTime);
+        
 
         if (direcao != Vector3.zero)
         {
@@ -30,5 +31,10 @@ public class ControlPlayer : MonoBehaviour
         {
             GetComponent<Animator>().SetBool("Moving", false);
         }
+    }
+
+    private void FixedUpdate()
+    {
+        GetComponent<Rigidbody>().MovePosition(GetComponent<Rigidbody>().position + (direcao * Velocidade * Time.deltaTime));
     }
 }
