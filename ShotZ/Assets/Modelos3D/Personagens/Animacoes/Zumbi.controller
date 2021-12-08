@@ -9,7 +9,7 @@ AnimatorController:
   m_Name: Zumbi
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: Andando
+  - m_Name: Atacando
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -42,7 +42,7 @@ AnimatorStateMachine:
     m_Position: {x: 270, y: 240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5936970197669905932}
-    m_Position: {x: 270, y: 370, z: 0}
+    m_Position: {x: 440, y: 310, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
